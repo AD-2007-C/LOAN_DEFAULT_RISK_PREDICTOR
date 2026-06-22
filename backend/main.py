@@ -41,7 +41,8 @@ model_pipeline = None
 def load_ml_artifacts():
     global model_pipeline
 
-    filename = "loan_default_pipeline.pkl"
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    filename = os.path.join(BASE_DIR, "loan_default_pipeline.pkl")
 
     print("\n--- Initializing Backend Server & Loading ML Pipeline ---")
 
