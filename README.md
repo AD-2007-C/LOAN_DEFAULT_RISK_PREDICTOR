@@ -163,7 +163,7 @@ Example response:
 ## Live Demo
 
 Frontend (Streamlit):
-https://your-streamlit-link
+[https://your-streamlit-link](https://loandefaultriskpredictor-hdl75ofdxggtywdj2ghnxm.streamlit.app)
 
 Backend (FastAPI):
 https://loandefaultriskpredictor-production.up.railway.app/docs
