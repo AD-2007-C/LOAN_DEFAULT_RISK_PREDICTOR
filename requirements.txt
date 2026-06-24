@@ -8,4 +8,5 @@ scikit-learn==1.6.1
 xgboost==2.0.3
 
 joblib==1.5.1
+dill==0.3.8
 pydantic==2.13.4
