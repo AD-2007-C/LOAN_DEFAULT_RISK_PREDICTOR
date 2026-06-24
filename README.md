@@ -160,12 +160,13 @@ Example response:
 
 ---
 
-## Live Deployment
+## Live Demo
 
-FastAPI service is deployed on Railway:
+Frontend (Streamlit):
+https://your-streamlit-link
 
-🔗 https://loandefaultriskpredictor-production.up.railway.app/docs
-
+Backend (FastAPI):
+https://loandefaultriskpredictor-production.up.railway.app/docs
 ## Author
 
 Aditya Nair
