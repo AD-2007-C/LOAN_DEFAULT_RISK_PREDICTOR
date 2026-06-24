@@ -130,13 +130,13 @@ if st.button("🔍 Assess Risk", use_container_width=True):
 
     try:
 
-        response = requests.post(
-            "http://127.0.0.1:8000/predict",
-            json=payload,
-            timeout=10
-        )
+       response = requests.post(
+         "https://loandefaultriskpredictor-production.up.railway.app/predict",
+          json=payload,
+          timeout=10
+)
 
-        if response.status_code == 200:
+       if response.status_code == 200:
 
             result = response.json()
 
@@ -276,7 +276,7 @@ if st.button("🔍 Assess Risk", use_container_width=True):
                 f"Predicted probability of default: {prob:.4f}"
             )
 
-        else:
+       else:
             st.error(
                 f"Backend returned status code {response.status_code}"
             )
