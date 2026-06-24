@@ -160,6 +160,12 @@ Example response:
 
 ---
 
+## Live Deployment
+
+FastAPI service is deployed on Railway:
+
+🔗 https://loandefaultriskpredictor-production.up.railway.app/docs
+
 ## Author
 
 Aditya Nair
