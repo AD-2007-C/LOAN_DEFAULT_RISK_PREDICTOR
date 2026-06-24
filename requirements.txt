@@ -4,7 +4,7 @@ uvicorn==0.49.0
 numpy==1.26.4
 pandas==2.2.2
 
-scikit-learn==1.4.2
+scikit-learn==1.6.1
 xgboost==2.0.3
 
 joblib==1.5.1
